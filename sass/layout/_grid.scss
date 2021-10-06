@@ -1,6 +1,6 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
+    // background-color: #eee;
     margin: 0 auto; // center block elements inside another block element
     
 
@@ -11,7 +11,7 @@
     @include clearfix;
 
     [class^="col-"] {   //select all attributes starting with "col-"
-        background-color: orangered;
+        // background-color: orangered;
         float: left;
 
         &:not(:last-child) {
