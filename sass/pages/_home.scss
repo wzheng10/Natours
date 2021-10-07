@@ -19,3 +19,10 @@
         transform: skewY(7deg); //counters the the skewY(-7deg) to make it not skewed
     }
 }
+
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 50rem 0;
+    margin-top: -12rem;
+
+}
