@@ -8,10 +8,21 @@ a::before {
 html {
     //Defines what 1 rem is
     font-size: 62.5%; /* 10px */
+
+    @include response-phone {
+        font-size: 50%;
+    }
+
+    @include response(phone){
+        font-size: 50%;
+    }
 }
+
 
 
 body {
     box-sizing: border-box;
 }
+
+
 

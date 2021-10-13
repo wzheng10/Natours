@@ -38,6 +38,12 @@ a::before {
 html {
   font-size: 62.5%;
   /* 10px */ }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
