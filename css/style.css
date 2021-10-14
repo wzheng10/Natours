@@ -37,13 +37,19 @@ a::before {
 
 html {
   font-size: 62.5%;
-  /* 10px */ }
-  @media (max-width: 600px) {
+  /*1rem = 10px, 10px/16px */ }
+  @media (max-width: 75em) {
     html {
-      font-size: 50%; } }
-  @media (max-width: 600px) {
+      font-size: 56.25%;
+      /* 1rem = 9px,  9px/16px */ } }
+  @media (max-width: 56.25em) {
     html {
-      font-size: 50%; } }
+      font-size: 50%;
+      /* 1rem = 8px,  8px/16px */ } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%;
+      /*1rem = 12px, 12px/16px */ } }
 
 body {
   box-sizing: border-box; }
